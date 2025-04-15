@@ -1,12 +1,12 @@
 package ir.digixo;
 
-import lombok.Getter;
-import lombok.Setter;
-
+import org.springframework.stereotype.Component;
 import java.io.Serializable;
 
+@Component
 public class ApplicationScopeClass implements Serializable {
-    private String name="mahsa";
+
+    private String name="Bita";
 
     public String getName() {
         return name;
